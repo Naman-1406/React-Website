@@ -1,0 +1,322 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/hero_1.jpg);
+    width: 100%;
+    background-position: 0cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed
+  }
+
+  .header-scrolled {
+    background-color: #fff;
+    transition: all 1s linear !important;
+    box-shadow: 0 0 10px #000;
+  }
+
+  .header-scrolled .nav-link {
+    color: #000 !important;
+    transition: 0.4s linear all;
+  }
+
+  .header-scrolled .nav-link:hover {
+    color: #007bff !important;
+    border-bottom-color: #007bff !important;
+  }
+
+  .header-scrolled h4 {
+    color: #000 !important;
+  }
+
+  nav a {
+    padding-left: 5%;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  .navbar a:hover {
+    color: #fff;
+  }
+
+  .page h3 {
+    margin-top: 10%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .page .btn {
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .site-footer {
+    background: #333;
+    padding: 8em 0;
+  }
+
+  .site-footer .footer-heading {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .site-footer a {
+    color: #999999;
+    text-decoration: none;
+  }
+
+  .site-footer p {
+    color: #737373;
+  }
+
+  .ml-auto {
+    margin-left: auto !important;
+  }
+
+  .form-control {
+    height: 43px;
+    border-radius: 30px;
+  }
+
+  .border-secondary {
+    background-color: #6c757d !important;
+  }
+
+  .bg-transparent {
+    background-color: transparent !important;
+  }
+
+  .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .input-group>.form-control {
+    flex: 1 1 auto;
+    width: 1%;
+  }
+
+  .btn {
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+  }
+
+  .footer-subscribe .btn {
+    height: 43px;
+    line-height: 1;
+    background: #fff;
+    color: #000;
+    right: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .input-group-append .btn {
+    z-index: 2;
+  }
+
+  .input-group>.input-group-append>.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 0px;
+  }
+
+  .lorem {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: large;
+  }
+
+  footer ul li {
+    display: flex;
+    text-decoration: none;
+    color: #737373;
+    margin-top: 20px;
+    font-size: x-large;
+
+  }
+
+  footer ul li:hover {
+    color: #fff;
+  }
+
+  footer input {
+    border-radius: 10px;
+  }
+
+  /* 
+  foooter end */
+
+  /* our team  */
+
+  .t-card img {
+    height: 250px;
+  }
+
+
+  .t-card {
+    overflow: hidden;
+  }
+
+  .t-card .t-icon {
+    transform: translateX(-100%);
+    transition: 0.8s linear all;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    height: 68.8%;
+    width: 40px;
+  }
+
+  .t-card p {
+    color: #6c757d;
+  }
+
+  .t-card:hover .t-icon {
+    transform: translateX(0%);
+  }
+
+  /* Our team end */
+
+  /* form :start */
+  .form-control {
+    height: 43px;
+    border-radius: 30px;
+    font-family: "Work Sans", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  }
+
+  label {
+    letter-spacing: 1px;
+    line-height: 3;
+  }
+
+  .btn.btn-primary {
+    margin-top: 20px;
+  }
+
+  .bg-white {
+    background-color: #fff !important;
+  }
+
+  /* form :end */
+
+  .contact textarea {
+    border-radius: 15px;
+    resize: none;
+  }
+
+  h1::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  h6::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  h5::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  h4::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  h3::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  h2::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  p::selection {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .teamsdata h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #007bff;
+  }
+
+  .teamsdata .team-para {
+    color: #737373;
+    font-size: 25px;
+  }
+
+
+  /* services start */
+
+  .servicescard {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .service h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #007bff;
+  }
+
+  .servicescard i {
+    margin-left: 20px;
+    font-size: 50px;
+    color: #007bff;
+  }
+
+  .servicescard p {
+    color: #737373;
+    font-size: 20px;
+  }
+
+  .servicescard span {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  /* services end */
+
+
+  /* contact us start*/
+  
+  .contactus {
+    color: #231f1f;
+  }
+
+  .contactus h1{
+    color: #007bff;
+    font-weight: bolder;
+    padding-top: 20px;
+  }
+
+  
+  .content {
+    display: flex;
+  }
+
+  .content i{
+    color: #007bff;
+    margin-left: 180px;
+  }
+
+  /* contact us end */
